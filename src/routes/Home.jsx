@@ -34,7 +34,7 @@ function Home({ toDos, addTodo }) {
 }
 
 //📍 아래와 같이 그냥 function을 만들어서 connect를 사용하면 된다.
-function mapStateToProps(state, ownProps) {
+function mapStateToProps(state) {
   return { toDos: state };
 }
 
